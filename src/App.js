@@ -125,7 +125,7 @@ import { motion } from "framer-motion";
 import { Mail, Github, Linkedin } from "lucide-react";
 
 export default function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   const projects = [
     {
